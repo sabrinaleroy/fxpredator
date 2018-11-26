@@ -37,7 +37,8 @@ class evenementAVenir extends WP_Widget {
     ?>
     
     		 <?php
-	   $now = time ();
+	    
+	    $now = date('Ymd');
 	  
 		$arguments = array(
 			'posts_per_page'	=> $nb_display,
@@ -49,7 +50,8 @@ class evenementAVenir extends WP_Widget {
 				array(
 					'key'		=> 'date_apres',
 					'value'		=> $now,
-					'compare'	=> '<'
+					'type' => 'DATE',
+					'compare'	=> '>'
 			)
 		)
 	);
@@ -157,19 +159,20 @@ class evenementPasse extends WP_Widget {
 	    ?>
 	   
 	    		 <?php
-		   $now = time ();
+		    $now = date('Ymd');
 		  
 			$arguments = array(
 				'posts_per_page'	=> $nb_display,
 				'post_type' 		=> 'evenement',
 				'meta_key'			=> 'date_apres',
 				'orderby'			=> 'meta_value_num',
-				'order'				=> 'ASC',
+				'order'				=> 'DESC',
 				'meta_query'		=> array(
 					array(
 						'key'		=> 'date_apres',
-						'value'		=> $now,
-						'compare'	=> '>'
+					'value'		=> $now,
+					'type' => 'DATE',
+					'compare'	=> '<'
 				)
 			)
 		);
