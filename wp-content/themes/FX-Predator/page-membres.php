@@ -27,7 +27,8 @@ get_header(); ?>
 						// User Loop
 						if ( ! empty( $user_query ) ) {
 							foreach ( $user_query as $user ) {
-								$imgURL = get_cupp_meta($user->id, 'full');
+								
+								$imgURL = get_field('photo_de_profil',"user_".$user->id);
 								$background = "";$role = "";
 								if($imgURL){
 									$background = 'style="background-image: url(\''.$imgURL.'\');"';

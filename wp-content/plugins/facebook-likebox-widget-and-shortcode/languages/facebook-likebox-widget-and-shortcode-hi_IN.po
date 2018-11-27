@@ -1,0 +1,477 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-09 19:06+0530\n"
+"PO-Revision-Date: 2018-08-10 11:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: facebook-likebox-cpt.php:24
+msgid "Image Gallery"
+msgstr "छवि गैलरी"
+
+#: facebook-likebox-cpt.php:80
+msgid "Docs"
+msgstr "दस्तावेज़"
+
+#: facebook-likebox-cpt.php:81
+msgid "Free Plugins"
+msgstr "मुफ्त प्लगइन्स"
+
+#: facebook-likebox-cpt.php:82
+msgid "Our Theme"
+msgstr "हमारी थीम"
+
+#: facebook-likebox-cpt.php:95 facebook-likebox-cpt.php:96
+#: facebook-likebox-cpt.php:109
+msgid "Facebook Likebox"
+msgstr "बॉक्स की तरह फेसबुक"
+
+#: facebook-likebox-cpt.php:97
+msgid "Parent Item:"
+msgstr "अभिभावक आइटम:"
+
+#: facebook-likebox-cpt.php:98
+msgid "All Facebook Likebox"
+msgstr "बॉक्स की तरह सभी फेसबुक"
+
+#: facebook-likebox-cpt.php:99
+msgid "Add New Facebook Likebox"
+msgstr "नया फेसबुक लाइकबोक्स जोड़ें"
+
+#: facebook-likebox-cpt.php:100
+msgid "Add Facebook Likebox"
+msgstr "फेसबुक लाइकबोक्स जोड़ें"
+
+#: facebook-likebox-cpt.php:101
+msgid "New Facebook Likebox"
+msgstr "नया फेसबुक लाइकबोक्स "
+
+#: facebook-likebox-cpt.php:102
+msgid "Edit Facebook Likebox"
+msgstr " फेसबुक लाइकबोक्स संपादित करें"
+
+#: facebook-likebox-cpt.php:103
+msgid "Update Facebook Likebox"
+msgstr " फेसबुक लाइकबोक्स अद्यतन करें"
+
+#: facebook-likebox-cpt.php:104
+msgid "Search Facebook Likebox"
+msgstr " फेसबुक लाइकबोक्स खोजे"
+
+#: facebook-likebox-cpt.php:105
+msgid "Facebook Likebox Not found"
+msgstr "फेसबुक लाइकबोक्स  नहीं मिला"
+
+#: facebook-likebox-cpt.php:106
+msgid "Facebook Likebox Not found in Trash"
+msgstr "ट्रैश में फेसबुक लाइकबोक्स नहीं मिला"
+
+#: facebook-likebox-cpt.php:110
+msgid "Custom Post Type For Facebook Likebox"
+msgstr "फेसबुक लाइकबोक्स  के लिए कस्टम पोस्ट प्रकार"
+
+#: facebook-likebox-cpt.php:139
+msgid "Add Likebox"
+msgstr "फेसबुक लाइकबोक्स जोड़ें"
+
+#: facebook-likebox-cpt.php:150
+msgid "Copy & Embed shortcode into any Page / Post to display on your site."
+msgstr "अपनी साइट पर प्रदर्शित करने के लिए किसी भी पेज / पोस्ट में कॉपी करें और एम्बेड करें।"
+
+#: facebook-likebox-cpt.php:154
+msgid "Facebook Likebox Settings"
+msgstr "फेसबुक लाइकबोक्स सेटिंग्स"
+
+#: facebook-likebox-meta-settings.php:11
+msgid "1. Facebook Application ID"
+msgstr "1. फेसबुक एप्लीकेशन आईडी"
+
+#: facebook-likebox-meta-settings.php:14
+msgid "You Should Type Facebook Application Id Here"
+msgstr "आपको यहां फेसबुक एप्लिकेशन आईडी टाइप करना चाहिए"
+
+#: facebook-likebox-meta-settings.php:20
+msgid "2. Your Facebook Page URL"
+msgstr "2. आपका फेसबुक पेज यूआरएल"
+
+#: facebook-likebox-meta-settings.php:23
+msgid "You Should Type Your facebook Page URL In This Setting Feild "
+msgstr "आपको इस सेटिंग फ़ील्ड में अपना फेसबुक पेज यूआरएल टाइप करना चाहिए"
+
+#: facebook-likebox-meta-settings.php:30
+msgid "3. Title Show/Hide Setting"
+msgstr "3. शीर्षक दिखाएँ / छुपाएं सेट करें"
+
+#: facebook-likebox-meta-settings.php:34
+msgid "Show"
+msgstr "प्रदर्शन"
+
+#: facebook-likebox-meta-settings.php:36
+msgid "Hide"
+msgstr "छिपाऐ"
+
+#: facebook-likebox-meta-settings.php:38
+msgid "You Can Show & Hide Your Likebox Title"
+msgstr "आप अपना लाइकबॉक्स शीर्षक दिखा और छुपा सकते हैं"
+
+#: facebook-likebox-meta-settings.php:45
+msgid "4. Auto Likebox Width"
+msgstr "4. ऑटो  लाइकबॉक्स चौड़ाई"
+
+#: facebook-likebox-meta-settings.php:49 facebook-likebox-meta-settings.php:91
+#: facebook-likebox-meta-settings.php:119
+#: facebook-likebox-meta-settings.php:132
+msgid "Yes"
+msgstr "हाँ"
+
+#: facebook-likebox-meta-settings.php:51 facebook-likebox-meta-settings.php:93
+#: facebook-likebox-meta-settings.php:121
+#: facebook-likebox-meta-settings.php:134
+msgid "No"
+msgstr "नहीं"
+
+#: facebook-likebox-meta-settings.php:53
+msgid "You Can Manage Facebook Likebox Width"
+msgstr "आप फेसबुक  लाइकबॉक्स कि चौड़ाई प्रबंधित कर सकते हैं"
+
+#: facebook-likebox-meta-settings.php:61
+msgid "5. Custom Likebox Width"
+msgstr "5. कस्टम लाइकबॉक्स चौड़ाई"
+
+#: facebook-likebox-meta-settings.php:66
+msgid ""
+"You Can Set Your Custom Likebox Width In This Feild By Using This Range Bar"
+msgstr ""
+"आप इस सीमा बार का उपयोग करके इस फील्ड में अपनी कस्टम लाइकबॉक्स चौड़ाई सेट कर सकते हैं"
+
+#: facebook-likebox-meta-settings.php:75
+msgid "6. Custom Likebox Height"
+msgstr "6. कस्टम लाइकबॉक्स कि ऊंचाई"
+
+#: facebook-likebox-meta-settings.php:80
+msgid ""
+"You Can Set Your Custom Likebox Height In This Feild By Using This Range Bar"
+msgstr ""
+"आप इस सीमा बार का उपयोग करके इस फील्ड में अपनी कस्टम लाइकबॉक्स ऊंचाई सेट कर सकते हैं"
+
+#: facebook-likebox-meta-settings.php:87
+msgid "7. Show Cover Photo"
+msgstr "7. कवर फोटो दिखाएं"
+
+#: facebook-likebox-meta-settings.php:95
+msgid "Set Your facebook Cover Photo Setting By Using This Setting Feild "
+msgstr "इस सेटिंग फ़ील्ड का उपयोग करके अपने फेसबुक कवर फोटो सेटिंग सेट करें"
+
+#: facebook-likebox-meta-settings.php:101
+msgid "8. Widget Header Size"
+msgstr "8. विजेट हैडर आकार"
+
+#: facebook-likebox-meta-settings.php:105
+msgid "Large"
+msgstr "विशाल"
+
+#: facebook-likebox-meta-settings.php:107
+msgid "Small"
+msgstr "छोटा"
+
+#: facebook-likebox-meta-settings.php:109
+msgid ""
+"You Can Set Your facebook Likebox Widget Header Size By Using This Setting "
+"Feild"
+msgstr ""
+"आप इस सेटिंग फ़ील्ड का उपयोग करके अपने फेसबुक लाइकबॉक्स विजेट शीर्षलेख आकार सेट कर सकते हैं"
+
+#: facebook-likebox-meta-settings.php:115
+msgid "9. Show Friends"
+msgstr "9. दोस्तों को दिखाओ"
+
+#: facebook-likebox-meta-settings.php:123
+msgid ""
+"You Can Show / Hide Your Facebook Friends Into Likebox By Using This Setting "
+"Feild"
+msgstr ""
+"आप इस सेटिंग फ़ील्ड का उपयोग करके अपने फेसबुक मित्र को लाइकबॉक्स में दिखा सकते हैं / छुपा "
+"सकते हैं"
+
+#: facebook-likebox-meta-settings.php:128
+msgid "10. Show Page Posts"
+msgstr "10. पेज पोस्ट दिखाएं"
+
+#: facebook-likebox-meta-settings.php:136
+msgid ""
+"You Can Show / Hide Your Posts & Pages Into Facebook Likebox By Using This "
+"Setting Feild"
+msgstr ""
+"आप इस सेटिंग फ़ील्ड का उपयोग करके फेसबुक  लाइकबॉक्स में अपने पोस्ट और पेज को दिखा / छुपा "
+"सकते हैं"
+
+#: facebook-likebox-meta-settings.php:142
+msgid "11. Widget Defalut Language"
+msgstr "11. विजेट डिफ़ॉल्ट भाषा"
+
+#: facebook-likebox-meta-settings.php:146
+msgid "English (US)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:147
+msgid "English (UK)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:148
+msgid "Afrikaans"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:149
+msgid "Arabic"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:150
+msgid "Armenian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:151
+msgid "Bulgarian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:152
+msgid "Breton"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:153
+msgid "Czech"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:154
+msgid "Chinese (Simplified China)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:155
+msgid "Chinese (Traditional Hong Kong)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:156
+msgid "Chinese (Traditional Taiwan)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:157
+msgid "Danish"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:158
+msgid "Dutch"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:159
+msgid "French (France)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:160
+msgid "French (Canada)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:161
+msgid "German"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:162
+msgid "Hebrew"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:163
+msgid "Hindi"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:164
+msgid "Hungarian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:165
+msgid "Irish"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:166
+msgid "Indonesian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:167
+msgid "Italian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:168
+msgid "Japanese"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:169
+msgid "Kazakh"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:170
+msgid "Korean"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:171
+msgid "Latin"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:172
+msgid "Nepali"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:173
+msgid "Persian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:174
+msgid "Polish"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:175
+msgid "Portuguese"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:176
+msgid "Romanian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:177
+msgid "Russian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:178
+msgid "Spanish"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:179
+msgid "Spanish (Chile)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:180
+msgid "Spanish (Colombia)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:181
+msgid "Spanish (Spain)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:182
+msgid "Spanish (Mexico)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:183
+msgid "Spanish (Venezuela)"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:184
+msgid "Serbian"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:185
+msgid "Swedish"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:186
+msgid "Thai"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:187
+msgid "Turkish"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:188
+msgid "Urdu"
+msgstr ""
+
+#: facebook-likebox-meta-settings.php:190
+msgid "Set Your Countary Language Into Your Facebook Likebox"
+msgstr "अपने फेसबुक  लाइकबॉक्स में अपनी काउंटी भाषा सेट करें"
+
+#: facebook-likebox-widget-and-shortcode.php:46
+msgid "facebook-likebox-widget-and-shortcode"
+msgstr "फेसबुक-लाइकबॉक्स -विजेट और शोर्ट"
+
+#: facebook-likebox-widget-and-shortcode.php:47
+msgid "A Social Widget For Facebook Likebox"
+msgstr "फेसबुक लाइकबॉक्स के लिए एक सामाजिक विजेट"
+
+#: facebook-likebox-widget-and-shortcode.php:112
+msgid "Widget Title"
+msgstr "विजेट शीर्षक"
+
+#: facebook-likebox-widget-and-shortcode.php:117
+msgid "Facebook Application ID"
+msgstr "फेसबुक एप्लीकेशन आईडी"
+
+#: facebook-likebox-widget-and-shortcode.php:122
+msgid "Your FaceBook Page URL"
+msgstr "आपका फेसबुक पेज यूआरएल"
+
+#: facebook-likebox-widget-and-shortcode.php:127
+msgid "Auto Widget Width"
+msgstr "ऑटो विजेट चौड़ाई"
+
+#: facebook-likebox-widget-and-shortcode.php:133
+msgid "Custom Widget Width"
+msgstr "कस्टम विजेट चौड़ाई"
+
+#: facebook-likebox-widget-and-shortcode.php:138
+msgid "Custom Widget Height"
+msgstr "कस्टम विजेट ऊंचाई"
+
+#: facebook-likebox-widget-and-shortcode.php:143
+msgid "Show Cover Photo"
+msgstr "कवर फोटो दिखाएं"
+
+#: facebook-likebox-widget-and-shortcode.php:149
+msgid "Widget Header Size"
+msgstr "विजेट हैडर आकार"
+
+#: facebook-likebox-widget-and-shortcode.php:155
+msgid "Show Friends"
+msgstr "दोस्तों को दिखाओ"
+
+#: facebook-likebox-widget-and-shortcode.php:161
+msgid "Show Page Posts"
+msgstr "पेज पोस्ट दिखाएं"
+
+#: facebook-likebox-widget-and-shortcode.php:167
+msgid "Widget Defalut Language"
+msgstr "विजेट डिफ़ॉल्ट भाषा"
+
+#: featured-plugins/featured-plugins.php:96
+#, php-format
+msgid "%s rating"
+msgstr ""
+
+#: featured-plugins/featured-plugins.php:111
+msgid "Get More Free WordPress Plugin From A WP Life"
+msgstr "ए ड़बल्युपी लाइफ से अधिक मुफ्त वर्डप्रेस प्लगइन प्राप्त करें"
+
+#: featured-plugins/featured-plugins.php:157
+msgid "More Details"
+msgstr "अधिक जानकारी"
+
+#: featured-plugins/featured-plugins.php:168
+msgid "Install Now"
+msgstr "अभी स्थापित करें"
+
+#: featured-plugins/featured-plugins.php:175
+msgid "Update Now"
+msgstr "अभी अद्यतन करें"
+
+#: featured-plugins/featured-plugins.php:218
+msgid "By "
+msgstr "द्वारा"
+
+#: featured-plugins/featured-plugins.php:239
+msgid "Last Updated:"
+msgstr "आखरी अपडेट:"

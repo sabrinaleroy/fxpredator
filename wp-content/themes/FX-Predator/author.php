@@ -30,8 +30,7 @@ get_header(); ?>
 				<div class="profile_picture">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatar.jpg" alt="<?php echo get_the_author();?>">
 				<?php 
-					
-					$imgURL = get_cupp_meta($author, 'large');
+					$imgURL = get_field('photo_de_profil',"user_".$user_info->id);
 					if($imgURL){ ?>
 						<div class="not_default"  style="background-image: url(<?php  echo $imgURL ?>);">
 							
@@ -66,7 +65,7 @@ get_header(); ?>
 						    while ( have_rows('reseaux', "user_".$author) ) : the_row();
 						    ?>
 						    
-								<li><a href="<?php the_sub_field('lien'); ?>"><i class="fa fa-<?php the_sub_field('icone'); ?>" aria-hidden="true"></i></a></li>
+								<li><a href="<?php the_sub_field('lien'); ?>" target="_blank"><i class="fa fa-<?php the_sub_field('icone'); ?>" aria-hidden="true"></i></a></li>
 						        
 						       <?php  
 								

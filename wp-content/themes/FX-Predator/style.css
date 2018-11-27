@@ -467,6 +467,10 @@ article.genaral-post-item .genpost-entry-content .lire:hover{
     text-align: right;
     text-transform: uppercase;
 }
+.main-widget-area ul li a:hover {
+    text-decoration: none;
+    color: #34e025;
+}
 .widget_evenementpasse,
 .widget_evenementavenir{
 	background-color: #ffffff;
@@ -594,6 +598,25 @@ article.genaral-post-item .genpost-entry-content .lire:hover{
 .widget-title-container {
     border-bottom: 0px;
     margin-bottom: 0px;
+}
+
+
+.menu-reseaux-sociaux-container{
+	padding: 10px 0;
+	background-color: #ffffff;
+}
+.menu-reseaux-sociaux-container ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.menu-reseaux-sociaux-container ul li{
+	margin: 0 8px;
+	display: inline-block;
+    padding: 0;
+}
+.menu-reseaux-sociaux-container ul li a{
+	font-size: 20px;
 }
 /******* Article et Evenement ******/
 .single #main a {
@@ -1096,4 +1119,13 @@ ul.list_membre li.team_player:hover a h3 span{
 }
 .author .author_section .gallery-item-container{
 	margin: 0 0 15px 0;	
+}
+
+ul#sidebar-login-links {
+    text-align: right;
+    background-color: #fff;
+    padding: 10px 0;
+}
+.sidebar-login-info{
+	display: none;
 }

@@ -79,7 +79,7 @@
 					
 					$author = get_the_author_ID();
 			
-					$imgURL = get_cupp_meta($author, 'large');
+					$imgURL = get_field('photo_de_profil',"user_".$author);
 					if($imgURL){ ?>
 						<div class="not_default"  style="background-image: url(<?php  echo $imgURL ?>);">
 							
