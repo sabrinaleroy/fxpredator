@@ -27,6 +27,16 @@ function theme_enqueue_styles() {
 
 add_action('transition_post_status', 'check_featured_image_size_after_save', 10, 3);
 
+function admin_css() {
+
+$admin_handle = 'admin_css';
+$admin_stylesheet = get_stylesheet_directory_uri() . '/css/admin.css';
+
+wp_enqueue_style( $admin_handle, $admin_stylesheet );
+}
+add_action('admin_print_styles', 'admin_css', 11 );
+
+
 function check_featured_image_size_after_save($new_status, $old_status, $post){
   $run_on_statuses = array('publish', 'pending', 'future');
   if(!in_array($new_status, $run_on_statuses))

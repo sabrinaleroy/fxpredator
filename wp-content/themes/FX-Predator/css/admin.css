@@ -1,0 +1,6 @@
+.form-table .user-url-wrap,
+.form-table .user-googleplus-wrap,
+.form-table .user-twitter-wrap,
+.form-table .user-facebook-wrap{
+	display:none;
+}
