@@ -89,7 +89,7 @@
 			<nav id="site-navigation" class="main-navigation cl-effect-10" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'main_navigation' ) ); ?>
 			</nav><!-- #site-navigation -->
-			<a href="#" class="navbutton" id="main-nav-button"><?php _e( 'Main Menu', 'awaken' ); ?></a>
+			<a href="#" class="navbutton" id="main-nav-button"><?php _e( 'Menu', 'awaken' ); ?></a>
 			<div class="responsive-mainnav"></div>
 
 			<div class="awaken-search-button-icon"></div>

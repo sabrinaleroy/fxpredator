@@ -9,7 +9,7 @@
 	<header class="single-entry-header">
 		<h1 class="single-entry-title">
 		<?php 
-			$apres=intval(get_field('date_apres'));
+			$apres=strtotime(get_field('date_apres'));
 			$now = time();
 			if($apres<$now){
 				echo "<span class=\"retour\">Retour sur : </span>";
@@ -19,7 +19,7 @@
 	</header><!-- .entry-header -->
 	
 	<div class="row">
-		<div class="col-xs-4 col-sm-4 col-md-4">
+		<div class="col-xs-12 col-sm-4 col-md-4">
 			
 			<?php 
 				if(get_field('logo')){
@@ -83,7 +83,7 @@
 			
 		</div>
 		
-		<div class="col-xs-8 col-sm-8 col-md-8">
+		<div class="col-xs-12 col-sm-8 col-md-8">
 			<?php 
 				
 				

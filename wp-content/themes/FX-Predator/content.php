@@ -31,7 +31,6 @@
 			<?php if ( 'evenement' == get_post_type() ) : ?>
 				<div class="genevenement-entry-meta">
 					
-					<?php the_field('date_apres'); ?>
 					<span><?php the_field('date_et_heure'); ?></span>
 		 
 				</div><!-- .entry-meta -->

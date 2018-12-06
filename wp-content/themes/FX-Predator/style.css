@@ -73,6 +73,27 @@ h1, .h1, h2, .h2, h3, .h3 {
 	padding:20px 15px 0px 0px;
 	background: url('./images/ironman.png') right 30px bottom no-repeat;
 }
+@media (max-width: 768px){
+	#masthead .site-branding .container{
+		background: url('./images/ironman.png') right -70px bottom no-repeat;
+	}
+}
+@media (max-width: 480px){
+	#masthead .site-branding .container{
+		background: none;
+		padding: 0;
+	}
+	#masthead .site-branding .container .site-logo {
+	    max-width: none;
+	    display: block;
+	    float: none;
+	    text-align: center;
+	}
+	#masthead .site-branding .container .site-logo a{
+	    max-width: 230px;
+	    display: inline-block;
+	}
+}
 .page #main,
 .single #main{
 	background-color: rgba(242,242,242,0.7);
@@ -125,17 +146,45 @@ h1, .h1, h2, .h2, h3, .h3 {
 .main-navigation  ul li ul li a:hover::after {
 	border-color: transparent transparent transparent transparent;
 }
-
+.responsive-mainnav li a, .responsive-topnav li a {
+    color: #fff;
+	font-weight: 100;
+    display: block;
+    font-family: Raleway,sans-serif;
+}
 .responsive-mainnav li a:hover, 
 .responsive-topnav li a:hover {
     background: #15fe00;
     color: #000000;
 }
+#main-nav-button, #top-nav-button {
+    font-family: Raleway,sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
 .main-navigation ul li ul{
 	background-color: #000000;
 }
 #awaken-search-form input[type="submit"] {
     background-color: #000000;/*#fa5742*/
+}
+.page-entry-header, 
+.archive-page-header, 
+.search-page-header {
+    border-bottom: 2px solid #15ff00;
+    margin-bottom: 1.5em;
+}
+.search-page-title .search-title-span,
+.page-entry-title, .archive-page-title, .search-page-title {
+    font-family: Raleway,sans-serif;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 200;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
 }
 
 #masthead > .container{
@@ -853,7 +902,7 @@ article.genaral-post-item .genpost-entry-content .lire:hover{
     margin: 0 0 0em;
     
 }
-.single.single-post #main .hentry .col-xs-8.col-sm-8.col-md-8 .entry-content{
+.single.single-post #main .hentry .entry-content{
 	background-color: #ffffff;
 }
 .single.single-post #main .single-entry-meta {
@@ -871,12 +920,12 @@ article.genaral-post-item .genpost-entry-content .lire:hover{
 .single.single-post  #main article .article-featured-image	img{
 	width: 100%;
 }
-.single.single-post  #main .hentry .col-xs-4.col-sm-4.col-md-4 .author{
+.single.single-post  #main .hentry  .author{
 	margin: 10px 0;
 	padding: 0 0 10px 0;
 	border-bottom:  3px solid #15fe00;
 }
-.single.single-post  #main .hentry .col-xs-4.col-sm-4.col-md-4 .author .author_name a{
+.single.single-post  #main .hentry  .author .author_name a{
 	f    font-family: Raleway,sans-serif;
     font-size: 25px;
     font-weight: 200;
@@ -930,7 +979,7 @@ article.genaral-post-item .genpost-entry-content .lire:hover{
     letter-spacing: 1px;
     padding: 0px 3px 6px 0;
     border-bottom: 3px solid #15fe00;
-    margin: -28px 0 12px 0;
+    margin: -10px 0 12px 0;
     text-transform: uppercase;
 }
 
@@ -984,6 +1033,37 @@ ul.list_membre li.team_player:nth-child(3n){
 }
 ul.list_membre li.team_player:nth-child(3n+1){
 	margin: 20px 1% 20px 2%;
+}
+
+@media (max-width : 768px){
+	ul.list_membre li.team_player{
+		width: 48%;
+		margin: 20px 1%;
+	}
+	ul.list_membre li.team_player:nth-child(3n){
+		margin: 20px 1%;
+	}
+	ul.list_membre li.team_player:nth-child(3n+1){
+		margin: 20px 1%;	
+	}
+	ul.list_membre li.team_player:nth-child(2n){
+		
+	}
+}
+@media (max-width : 380px){
+	ul.list_membre li.team_player{
+		width: 98%;
+		margin: 20px 1%;
+	}
+	ul.list_membre li.team_player:nth-child(3n){
+		margin: 20px 1%;
+	}
+	ul.list_membre li.team_player:nth-child(3n+1){
+		margin: 20px 1%;	
+	}
+	ul.list_membre li.team_player:nth-child(2n){
+		
+	}
 }
 ul.list_membre li.team_player a{
 	height: 200px;
@@ -1106,11 +1186,20 @@ ul.list_membre li.team_player:hover a h3 span{
 }
 .author .author_section{
 	position: relative;
-	
     border-bottom: 3px solid #15fe00;
     padding: 0 0 45px 0;
     margin: 0 0 14px 0;
 }
+@media (max-width : 1000px){
+	.author .author_section.gallery .title_author{
+		border-bottom: 3px solid #15fe00;
+	    padding: 0 20px 4px 0;
+	    margin: 15px 0;
+	    position: initial;
+	    text-align: right;
+	}
+}
+
 .author .author_section:last-child{
 	
     border-bottom:0;
@@ -1128,4 +1217,18 @@ ul#sidebar-login-links {
 }
 .sidebar-login-info{
 	display: none;
+}
+@media (max-width: 768px){
+	.row {
+	    margin: 0;
+	}
+}
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.site-footer{
+	background: #000000;
 }

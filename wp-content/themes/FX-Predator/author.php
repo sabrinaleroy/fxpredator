@@ -92,7 +92,7 @@ get_header(); ?>
 				
 				
 				if( $images ): ?>
-					<div class="author_section">
+					<div class="author_section gallery">
 						<h2 class="title_author">Ma Gallerie</h2>
 						
 						

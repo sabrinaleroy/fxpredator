@@ -94,6 +94,8 @@ class YAST_class {
 	add_menu_page(__('Support Tickets', 'yast'), __('Support Tickets', 'yast'), 'manage_options', 'yast_list', array(&$this, 'liste'));
 	add_submenu_page('yast_list', __('Ticket types', 'yast'), __('Ticket types', 'yast'), 'manage_options', 'edit-tags.php?taxonomy=ticket_type');
 	add_submenu_page('yast_list', __('Options', 'yast'), __('Options', 'yast'), 'manage_options', 'yast_options', array(&$this, 'options'));
+	
+	add_menu_page(__('Tickets En Cours', 'yast'), __('Tickets En Cours', 'yast'), 'create_posts', 'yast_list_member', array(&$this, 'liste'));
     }
 
     /*
